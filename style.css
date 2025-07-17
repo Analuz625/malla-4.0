@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #0b032d, #2d006b, #001f3f);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.anio {
+  margin-bottom: 2rem;
+}
+
+.anio h2 {
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button.materia {
+  background-color: #555;
+  border: none;
+  color: #aaa;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: not-allowed;
+  transition: background-color 0.3s ease;
+}
+
+button.materia.active {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
